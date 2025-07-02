@@ -1,6 +1,8 @@
 # Regador Autônomo
 Projeto feito para a matéria de Fundamentos Ciber-Físicos.
 
+&emsp;&emsp; [Vídeo de explicação do projeto](https://www.youtube.com/watch?v=j0qeCLzuufM)
+
 <details>
 <summary>Pinagem</summary>
 

@@ -65,7 +65,7 @@ Bomba | Ligação
 </details>
 
 Créditos: 
-* Código: [Larissa Adames Gonçalves](larissaadames.dev)
+* Código: [Larissa Adames Gonçalves](https://larissaadames.dev/)
 * Vídeo de explicação: [Luis Quintiliano](https://github.com/quinticode)
 * Desenvolvimento do projeto (físico e digital): [Larissa Adames Gonçalves](https://www.linkedin.com/in/larissa-adames/)
-* Slides: [Graziele Claus](https://github.com/graziclaus)
+* [Slides](https://www.canva.com/design/DAGrZZXKgNU/93rSna9evLE9B0h-tpZ4Zg/edit): [Graziele Claus](https://github.com/graziclaus)

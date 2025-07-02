@@ -10,6 +10,20 @@ Projeto feito para a matéria de Fundamentos Ciber-Físicos.
 &emsp;&emsp; O [Código 2](https://github.com/larissaadames/RegadorAutonomo/blob/main/Logica2.ino) é a versão final do código, onde tudo funciona perfeitamente.
 </details>
 <details>
+  <summary>Eletrônica</summary>
+A parte de eficiência energética funciona com a alimentação do circuito com uma bateria sendo carregada pelo painel solar.
+  
+#### Sensor de Umidade
+
+Sensor | Ligação
+:--------- | :------
+`VCC` | `5V L1`
+`AOUT` | `A0`
+`GND` | `GND`
+
+</details>
+
+<details>
 <summary>Pinagem</summary>
 
   #### OBS: O projeto tem duas "linhas" 5v (positivo) e uma GND (negativo)

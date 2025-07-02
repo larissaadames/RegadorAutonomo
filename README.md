@@ -2,7 +2,13 @@
 Projeto feito para a matéria de Fundamentos Ciber-Físicos.
 
 &emsp;&emsp; [Vídeo de explicação do projeto](https://www.youtube.com/watch?v=j0qeCLzuufM)
+<details>
+  <summary>Código</summary>
 
+&emsp;&emsp; O [Código 1](https://github.com/larissaadames/RegadorAutonomo/blob/main/Logica1.ino) foi a primeira versão do projeto, com uma lógica limpa, o que facilita a compreensão. Porém o Tracker não funciona perfeitamente.
+
+&emsp;&emsp; O [Código 2](https://github.com/larissaadames/RegadorAutonomo/blob/main/Logica2.ino) é a versão final do código, onde tudo funciona perfeitamente.
+</details>
 <details>
 <summary>Pinagem</summary>
 
@@ -67,5 +73,5 @@ Bomba | Ligação
 Créditos: 
 * Código: [Larissa Adames Gonçalves](https://larissaadames.dev/)
 * Vídeo de explicação: [Luis Quintiliano](https://github.com/quinticode)
-* Desenvolvimento do projeto (físico e digital): [Larissa Adames Gonçalves](https://www.linkedin.com/in/larissa-adames/)
+* Desenvolvimento do projeto (físico e [digital](https://github.com/larissaadames/RegadorAutonomo/blob/main/Diagrama.pdf)): [Larissa Adames Gonçalves](https://www.linkedin.com/in/larissa-adames/)
 * [Slides](https://www.canva.com/design/DAGrZZXKgNU/93rSna9evLE9B0h-tpZ4Zg/edit): [Graziele Claus](https://github.com/graziclaus)

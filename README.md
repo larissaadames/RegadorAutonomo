@@ -61,3 +61,11 @@ Bomba | Ligação
 :--------- | :------
 `Positivo` | `NO (relé)`
 `Negativo` | `GND`
+
+</details>
+
+Créditos: 
+Código: Larissa Adames Gonçalves
+Vídeo de explicação: Luis Quintiliano
+Desenvolvimento do projeto (físico e digital): Larissa Adames Gonçalves
+

@@ -13,23 +13,23 @@ Projeto feito para a matéria de Fundamentos Ciber-Físicos.
   
 #### Sensor de Umidade
 
-Sensor | Placa
+Sensor | Ligação
 :--------- | :------
 `VCC` | `5V L1`
 `AOUT` | `A0`
 `GND` | `GND`
 
-#### LDR1
+#### LDR1 (Usanod o K853518)
 
-Sensor | Placa
+Sensor | Ligação
 :--------- | :------
 `VCC` | `5V L1`
-`AOUT` | `A1`
+`OUT` | `A1`
 `GND` | `GND`
 
-#### LDR2
+#### LDR2 (Usanod o K853518)
 
-Sensor | Placa
+Sensor | Ligação
 :--------- | :------
 `VCC` | `5V L1`
 `AOUT` | `A2`
@@ -37,8 +37,25 @@ Sensor | Placa
 
 #### Servo Motor
 
-Sensor | Placa
+Sensor | Ligação
 :--------- | :------
 `VCC` | `5V L1`
-`AOUT` | `3`
+`OUT` | `3`
 `GND` | `GND`
+
+#### Relé (bomba)
+
+Sensor | Ligação
+:--------- | :------
+`IN` | `8`
+`GND` | `GND`
+`VCC` | `5V L1`
+`COM` | `5V L2`
+`NO` | `+ Bomba`
+
+#### Bomba
+
+Bomba | Ligação
+:--------- | :------
+`Positivo` | `NO (relé)`
+`Negativo` | `GND`

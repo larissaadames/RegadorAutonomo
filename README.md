@@ -11,15 +11,40 @@ Projeto feito para a matéria de Fundamentos Ciber-Físicos.
 </details>
 <details>
   <summary>Eletrônica</summary>
-A parte de eficiência energética funciona com a alimentação do circuito com uma bateria sendo carregada pelo painel solar.
-  
-#### Sensor de Umidade
+A parte de eficiência energética funciona com a alimentação de parte do circuito com uma bateria sendo carregada pelo painel solar.
 
-Sensor | Ligação
+ #### Por que utilizamos um regulador de tensão? (MT3608)
+ A nossa bateria é de 3.7V, então não conseguimos alimentar o arduino nano, e nem os componentes (pois eles trabalham em 5V), o regulador de tensão serve para "aumentar" essa tensão para 5V.
+ 
+  
+#### Placa solar
+OBS: Existe um Diodo Schottky entre os positivos com a linha prata virada para o TP4056 
+Placa Solar | TP4056
 :--------- | :------
-`VCC` | `5V L1`
-`AOUT` | `A0`
-`GND` | `GND`
+`+` | `IN+`
+`-` | `IN-`
+
+#### TP4056
+
+ TP4056 | Conexões
+ :------| :------
+`IN+` | `Positivo da Placa solar`
+`IN-` | `Negativo da Placa solar`
+`B+` | `Positivo da bateria Li-on`
+`B-` | `Negativo da bateria Li-on`
+`OUT+` | `VIN+ (MT3608)`
+`OUT-` | `VIN- (MT3608)`
+
+#### MT3608
+
+MT3608 | Conexões
+ :------| :------
+`VIN+` | `OUT+ (TP4056)`
+`VIN-` | `OUT- (TP4056)`
+`OUT+` | `Nova linha positiva 5v! (5V L2)`
+`OUT-` | `Linha negativa (GND [que vai ligada no gnd do arduino])`
+
+Até então no projeto estamos utilizando essa parte da alimentação apenas para a bomba de água (será explicado no tópico "pinagem"), por isso estamos chamando essa parte de alimentação como 5V linha 2, como se fosse uma linha de alimentação secundária. E o GND será sempre o mesmo, a outra linha positiva é a do própio arduino nano.
 
 </details>
 

@@ -114,3 +114,4 @@ Créditos:
 * Vídeo de explicação: [Luis Quintiliano](https://github.com/quinticode)
 * Desenvolvimento do projeto (físico e [digital](https://github.com/larissaadames/RegadorAutonomo/blob/main/Diagrama.pdf)): [Larissa Adames Gonçalves](https://www.linkedin.com/in/larissa-adames/)
 * [Slides](https://www.canva.com/design/DAGrZZXKgNU/93rSna9evLE9B0h-tpZ4Zg/edit): [Graziele Claus](https://github.com/graziclaus)
+* Pesquisa: [Davi Cagnato](https://github.com/cagnato), [Nicolas Oliveira](https://github.com/Nicolas-Grzebieniak) e [Guilherme Malinski](https://github.com/GuilhermeMalinski80)

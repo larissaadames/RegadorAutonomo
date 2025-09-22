@@ -66,7 +66,7 @@ Sensor | Ligação
 `AOUT` | `A0`
 `GND` | `GND`
 
-#### LDR1 (Usanod o K853518)
+#### LDR1 (Usando o K853518)
 
 Sensor | Ligação
 :--------- | :------
@@ -74,7 +74,7 @@ Sensor | Ligação
 `OUT` | `A1`
 `GND` | `GND`
 
-#### LDR2 (Usanod o K853518)
+#### LDR2 (Usando o K853518)
 
 Sensor | Ligação
 :--------- | :------
